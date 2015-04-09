@@ -1,1 +1,92 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles/font-awesome-4.3.0/css/font-awesome.min.css">
+  <link href="http://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Muli" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Port+Lligat+Slab" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="styles/main.css">
+  <title>Weston L. Humphreys</title>
+</head>
+<body>
+  <header>
+  <h1 class="my-name">Weston L. Humphreys</h1>
+  <h3 class="my-title">Story Lover</h3>
+  <h3 class="my-title">Front End Developer</h3>
+  </header>
+
+  <div id="js-top-nav" class="top-nav">
+    <a href="#profile" class="top-nav-link">Profile</a>
+    <a href="#work" class="top-nav-link">Work</a>
+    <a href="#contact" class="top-nav-link">Contact</a>
+  </div>
+
+  <div id="profile" class="profile-container">
+    <h2 class="profile-title title">Who I Am</h2>
+
+    <div class="profile-left">
+      <img src="images/profile2.JPG" alt="Weston Humphreys" title="Weston L. Humphreys' Face" class="profile-photo">
+      <h3 class="profile-name">Weston L. Humphreys</h3>
+    </div>
+    <p class="bio"> &nbsp;&nbsp;&nbsp;&nbsp;Hello and welcome to my portfolio! In March of 2015 I graduated from the Iron Yard with an excellent foundation in front end development.
+      I’ve had my hands on everything from HTML and CSS to JavaScript libraries and frameworks like Underscore and Ember.
+      <br>
+      <br>
+       &nbsp;&nbsp;&nbsp;&nbsp;I love being able to see applications and web sites come to life.
+      It’s the creativity and problem solving that made me fall in love with writing code in the first place.
+      Each app tells its own story.
+      Everyone needs more stories.  </p>
+  </div>
+
+  <div id="work" class="work-container">
+    <h2 class="work-title title">What I Do</h2>
+
+    <div class="work-example">
+      <h3 class="work-example-title">Board Game Bookshelf</h3>
+      <img src="images/bgb-screen-shot.png" alt="" class="work-image">
+      <p class="work-description">Board Game Bookshelf was my final project at the Iron Yard.
+        The app is a simple way to keep track of your board game collection.
+        BGB utilizes a Ruby backend that I built using the lightweight framework, Sinatra.
+        The meat of the app is Ember.js.
+        I also utilized SASS for styling and Parse for an additional backend.</p>
+      <a class="work-links" href="#" target="_blank">THE APP</a>
+      <a class="work-links" href="https://github.com/braverun/Board-Game-Bookshelf" target="_blank">THE CODE</a>
+    </div>
+
+    <div class="work-example">
+      <h3 class="work-example-title">Surf &amp; Paddle</h3>
+      <img src="images/surf-screen-shot.png" alt="" class="work-image">
+      <p class="work-description">Surf and Paddle was the first major project that I had done.
+        The goal of the project was to make a pixel perfect representation of a PDF
+        (see the original <a href="sf.html" target="_blank">here</a>) using just HTML and CSS and later on I incorporated SASS.
+        I was free to choose my own images.</p>
+      <a class="work-links" href="#" target="_blank">THE APP</a>
+      <a class="work-links" href="https://github.com/braverun/Surf-and-Paddle" target="_blank">THE CODE</a>
+    </div>
+
+  </div>
+
+  <div id="contact" class="first-contact-container">
+    <h2 class="contact-title title">Where I Am</h2>
+    <a href="https://github.com/braverun" target="_blank"><i class="fa fa-github-square first-row-icon"></i></a>
+    <a href="https://www.linkedin.com/in/braverun" target="_blank"><i class="fa fa-linkedin-square first-row-icon"></i></a>
+    <a href="https://twitter.com/braverun_" target="_blank"><i class="fa fa-twitter-square first-row-icon"></i></a>
+    <a href="https://medium.com/@braverun" target="_blank"><i class="fa fa-medium first-row-icon"></i></a>
+  </div>
+
+  <div class="second-contact-container">
+    <a href="mailto:braverun@gmail.com?Subject=Awesome%20Job%20Opportunity"><i class="fa fa-envelope-o second-row-icon"> <span> braverun@gmail.com</span></i></a>
+    <i class="fa fa-phone-square second-row-icon"> <span> 208-598-1630</span></i>
+  </div>
+
+<footer>
+<p class="thanks">Thanks for taking time out of your day to look at the projects I’ve been working on. I’m excited to begin working with a team of developers in order to grow and learn with them. I can’t wait to get into the world and use my development skills for the greater good. </p>
+</footer>
+
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/sticky/jquery.sticky.js"></script>
+<script src="scripts/main.js"></script>
+
+</body>
+</html>
