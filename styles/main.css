@@ -121,8 +121,8 @@ footer {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 40.29137%;
-      margin-left: 25.58941%; }
+      width: 100%;
+      /* @include shift(3); */ }
       .profile-left:last-child {
         margin-right: 0; } }
 
@@ -135,6 +135,15 @@ footer {
   border-radius: 3%; }
   .profile-photo:last-child {
     margin-right: 0; }
+  @media screen and (max-width: 840px) {
+    .profile-photo {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%;
+      margin-left: 25.58941%; }
+      .profile-photo:last-child {
+        margin-right: 0; } }
 
 .profile-name {
   float: left;
@@ -145,6 +154,15 @@ footer {
   color: #212121; }
   .profile-name:last-child {
     margin-right: 0; }
+  @media screen and (max-width: 840px) {
+    .profile-name {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%;
+      margin-left: 25.58941%; }
+      .profile-name:last-child {
+        margin-right: 0; } }
 
 .bio {
   float: left;
@@ -263,6 +281,11 @@ footer {
     border: solid #5C7439 3px;
     border-radius: 10%;
     color: #5C7439; }
+  @media screen and (max-width: 840px) {
+    .work-links {
+      margin: 20px;
+      border-radius: 8%;
+      font-size: 20px; } }
 
 .first-contact-container {
   max-width: 68em;

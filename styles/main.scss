@@ -135,8 +135,8 @@ footer {
   text-align: center;
 
   @include media($tablet) {
-    @include span-columns(5);
-    @include shift(3);
+    @include span-columns(12);
+    /* @include shift(3); */
   }
 }
 
@@ -144,12 +144,22 @@ footer {
   @include span-columns(3 of 3);
   border: solid white 3px;
   border-radius: 3%;
+
+  @include media($tablet) {
+    @include span-columns(6);
+    @include shift(3);
+  }
 }
 
 .profile-name {
   @include span-columns(3 of 3);
   padding-top: 15px;
   color: $text-color;
+
+  @include media($tablet) {
+    @include span-columns(6);
+    @include shift(3);
+  }
 
 }
 
@@ -244,6 +254,12 @@ footer {
     border: solid $primary-color 3px;
     border-radius: 10%;
     color: $primary-color;
+  }
+
+  @include media($tablet) {
+    margin: 20px;
+    border-radius: 8%;
+    font-size: 20px;
   }
 }
 
