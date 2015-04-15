@@ -179,7 +179,7 @@ footer {
   display: block;
   margin-right: 2.35765%;
   width: 100%;
-  margin-bottom: 50px; }
+  margin-bottom: 100px; }
   .work-example:last-child {
     margin-right: 0; }
   @media screen and (max-width: 840px) {
@@ -267,7 +267,7 @@ footer {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 25px; }
+  margin-bottom: 35px; }
   .first-contact-container::after {
     clear: both;
     content: "";
