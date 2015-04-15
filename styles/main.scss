@@ -75,7 +75,7 @@ footer {
   text-align: center;
 
   @include media($tablet) {
-    height: 500px;
+    height: 650px;
   }
 }
 
@@ -161,6 +161,7 @@ footer {
   @include media($tablet) {
     @include span-columns(10);
     @include shift(1);
+    text-align: justify;
   }
 }
 
@@ -279,7 +280,7 @@ footer {
   transition: all 300ms;
   text-align: center;
   color: $secondary-color;
-  font-size: 35px;
+  font-size: 27px;
 
   &:hover {
     color: $primary-color;
