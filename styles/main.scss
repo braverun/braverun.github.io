@@ -67,8 +67,9 @@ header {
   color: white;
 
   @include media($tablet) {
-    background-image: url('../images/header-photo2.jpg');
     background-color: $secondary-color;
+    background-image: url('../images/header-photo2.jpg');
+    height: 400px;
   }
 }
 
@@ -86,6 +87,10 @@ footer {
 .my-name {
   padding-top: 130px;
   font-size: 3.5em;
+
+  @include media($tablet) {
+    padding-top: 50px;
+  }
 }
 
 .my-title {
