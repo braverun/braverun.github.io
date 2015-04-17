@@ -68,7 +68,7 @@ header {
 
   @include media($tablet) {
     background-color: $secondary-color;
-    background-image: url('../images/header-photo2.jpg');
+    background-image: url('../images/header-small.jpg');
     height: 350px;
   }
 }
