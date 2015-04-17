@@ -66,6 +66,10 @@ header {
   height: 575px;
   text-align: center;
   color: white;
+
+  @include media($tablet) {
+    background-image: url('../images/header-photo2.jpg');
+  }
 }
 
 footer {
