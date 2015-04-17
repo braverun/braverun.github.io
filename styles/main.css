@@ -35,8 +35,7 @@ span {
 
 body {
   background-color: #E6F0F9;
-  color: #212121;
-  /* background: $background-color url('../images/pine-tree.png') repeat-y 0; */ }
+  color: #212121; }
 
 header {
   background-image: url("../images/header-photo.jpg");
