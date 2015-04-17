@@ -69,7 +69,7 @@ header {
   @include media($tablet) {
     background-color: $secondary-color;
     background-image: url('../images/header-photo2.jpg');
-    height: 400px;
+    height: 350px;
   }
 }
 
@@ -89,7 +89,7 @@ footer {
   font-size: 3.5em;
 
   @include media($tablet) {
-    padding-top: 50px;
+    padding-top: 25px;
   }
 }
 

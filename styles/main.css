@@ -48,7 +48,7 @@ header {
     header {
       background-color: #5882B6;
       background-image: url("../images/header-photo2.jpg");
-      height: 400px; } }
+      height: 350px; } }
 
 footer {
   background-color: #5C7439;
@@ -64,7 +64,7 @@ footer {
   font-size: 3.5em; }
   @media screen and (max-width: 840px) {
     .my-name {
-      padding-top: 50px; } }
+      padding-top: 25px; } }
 
 .my-title {
   padding-bottom: 5px;
