@@ -61,6 +61,7 @@ footer {
 
 .my-name {
   padding-top: 130px;
+  text-shadow: 1px 2px 3px #727272;
   font-size: 3.5em; }
   @media screen and (max-width: 840px) {
     .my-name {
@@ -68,10 +69,10 @@ footer {
 
 .my-title {
   padding-bottom: 5px;
+  text-shadow: 1px 1px 3px #727272;
   font-size: 1em; }
 
 .top-nav {
-  /* @include outer-container(width 100%); */
   z-index: 10;
   border-bottom: solid #5882B6 2px;
   background-color: #5C7439;

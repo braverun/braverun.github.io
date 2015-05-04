@@ -86,6 +86,7 @@ footer {
 
 .my-name {
   padding-top: 130px;
+  text-shadow: 1px 2px 3px $secondary-text-color;
   font-size: 3.5em;
 
   @include media($tablet) {
@@ -95,11 +96,11 @@ footer {
 
 .my-title {
   padding-bottom: 5px;
+  text-shadow: 1px 1px 3px $secondary-text-color;
   font-size: 1em;
 }
 
 .top-nav {
-  /* @include outer-container(width 100%); */
   z-index: 10;
   border-bottom: solid $secondary-color 2px;
   background-color: $primary-color;
