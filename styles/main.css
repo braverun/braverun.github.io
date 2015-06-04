@@ -69,7 +69,8 @@ footer {
   font-size: 70px; }
   @media screen and (max-width: 840px) {
     .my-name {
-      padding-top: 25px; } }
+      padding-top: 25px;
+      font-size: 50px; } }
 
 .my-title {
   padding-bottom: 5px;
