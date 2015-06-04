@@ -53,8 +53,13 @@ span {
   font-family: 'Muli', sans-serif;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   background-color: $background-color;
+  height: 100%;
   color: $text-color;
 }
 
@@ -62,7 +67,7 @@ header {
   background-image: url('../images/header-photo.jpg');
   background-position: center center;
   background-size: cover;
-  height: 575px;
+  min-height: 100%;
   text-align: center;
   color: white;
 
@@ -85,9 +90,9 @@ footer {
 }
 
 .my-name {
-  padding-top: 130px;
+  padding-top: 100px;
   text-shadow: 1px 2px 3px $secondary-text-color;
-  font-size: 3.5em;
+  font-size: 70px;
 
   @include media($tablet) {
     padding-top: 25px;
@@ -97,7 +102,23 @@ footer {
 .my-title {
   padding-bottom: 5px;
   text-shadow: 1px 1px 3px $secondary-text-color;
-  font-size: 1em;
+  font-size: 22px;
+}
+
+.down-arrow {
+  margin-top: 5px;
+  text-decoration: none;
+  text-shadow: 1px 1px 3px $secondary-text-color;
+  color: white;
+  font-size: 40px;
+}
+
+.down-arrow:visited {
+  color: white;
+}
+
+.down-arrow:active {
+  text-shadow: none;
 }
 
 .top-nav {
@@ -114,6 +135,7 @@ footer {
   display: inline-block;
   margin-top: 16px;
   width: 33%;
+  text-decoration: none;
   color: white;
   font-size: 1.5em;
 
