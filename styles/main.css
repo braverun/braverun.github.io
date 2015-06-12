@@ -142,6 +142,7 @@ footer {
   display: block;
   margin-right: 2.35765%;
   width: 23.23176%;
+  margin-left: 8.5298%;
   text-align: center; }
   .profile-left:last-child {
     margin-right: 0; }
@@ -235,6 +236,7 @@ footer {
       text-align: center; } }
 
 .work-example-title {
+  margin-left: 4.2649%;
   margin-bottom: 15px;
   font-size: 25px; }
   @media screen and (max-width: 840px) {

@@ -167,6 +167,7 @@ footer {
 
 .profile-left {
   @include span-columns(3);
+  @include shift(1);
   text-align: center;
 
   @include media($tablet) {
@@ -225,6 +226,7 @@ footer {
 }
 
 .work-example-title {
+  @include shift(.5);
   margin-bottom: 15px;
   font-size: 25px;
 
